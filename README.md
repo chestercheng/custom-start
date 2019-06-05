@@ -1,9 +1,3 @@
-# Meme-imal - custom-firefox-start #
-A minimal start page
+# Screenshot
 
-## WIP ##
-* Quotes
-
-## Pending ##
-* Weather
-* More ??
+![Screenshot](images/screenshot.png)

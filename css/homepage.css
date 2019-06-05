@@ -1,19 +1,18 @@
-/*@import "https://fontlibrary.org/face/fantasque-sans-mono";*/
-@import 'https://fonts.googleapis.com/css?family=Bad+Script';
 @font-face {
     font-family: FantasqueSansMonoRegular;
     src: url('../fonts/FantasqueSansMono-Regular.ttf');
 }
-@import 'https://fonts.googleapis.com/css?family=Roboto';
+@font-face {
+    font-family: Bad Script;
+    src: url('../fonts/BadScript-Regular.ttf');
+}
 html, body {
     height: 100%;
     width: 100%;
     margin: 0px;
-    /*color: #6dc2a3;*/
     color: #5294E2;
 }
 body {
-    /*background-color: #273941;*/
     background-color: #323638;
 }
 a, a:hover, a:focus {
@@ -36,26 +35,30 @@ a, a:hover, a:focus {
 }
 .time {
     font-size: 40px;
+    font-family: 'FantasqueSansMonoRegular';
     position: inherit;
     top: -94px;
 }
 .day1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'FantasqueSansMonoRegular';
     position: inherit;
-    top: -88px;
-    left: 0px;
+    top: -60px;
+    left: -34px;
 }
 .day2 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'FantasqueSansMonoRegular';
     position: inherit;
-    top: -45px;
-    left: -27px;
+    top: -30px;
+    left: -55px;
 }
 .day3 {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'FantasqueSansMonoRegular';
     position: inherit;
-    top: -1px;
-    left: -55px;
+    top: 0px;
+    left: -77px;
 }
 .sites {
     padding: 40px 0px 0px 0px;
@@ -67,6 +70,12 @@ a, a:hover, a:focus {
 .greeting {
     font-family: 'FantasqueSansMonoRegular';
     font-size: 50px;
+    color: #fff;
+}
+.greeting-name {
+    font-family: 'FantasqueSansMonoRegular';
+    font-size: 50px;
+    color: #ffff00;
 }
 .sites > li {
     padding: 20px;
@@ -83,11 +92,40 @@ input {
     padding: 10px;
     width: 700px;
     font-size: 18px;
-    font-family: 'Roboto'
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #fff;
 }
-blockquote {
+.ui-helper-hidden-accessible {
+    display:none;
+}
+.ui-autocomplete {
+    float: left;
+    padding: 4px 0;
+    margin: 0 0 10px 25px;
+    list-style: none;
+    background-color: rgba(50, 54, 56, 0.8);
+    border: 2px solid #5294E2;
+    border-top-style: none;
+}
+.ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #fff;
+}
+.ui-menu-item a.ui-state-focus {
+    color: #ffffff;
+    background-color: #5294E2;
+}
+.fa-quote-left, .fa-quote-right {
+    color: #808080;
+}
+#quote {
     font-size: 22px;
     font-family: 'Bad Script';
+    color: #808080;
 }
 .padding-right {
     padding-right: 40px;
