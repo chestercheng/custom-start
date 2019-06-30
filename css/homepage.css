@@ -11,6 +11,7 @@ html, body {
     width: 100%;
     margin: 0px;
     color: #5294E2;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 body {
     background-color: #323638;
@@ -92,7 +93,6 @@ input {
     padding: 10px;
     width: 700px;
     font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: #fff;
 }
 .ui-helper-hidden-accessible {

@@ -41,7 +41,7 @@ function startTime() {
     s = checkTime(s);
     if(h <= 12) {
         am_pm = 'AM';
-        if (h < 5) greer = 'Howdy Night Owl, ';
+        if (h < 5) greet = 'Howdy Night Owl, ';
     } else {
         am_pm = 'PM';
         h = h % 12;
